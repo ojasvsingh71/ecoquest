@@ -1,0 +1,64 @@
+.green-energy-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .section.bg-light {
+    background-color: #f0f8ff;
+  }
+  
+  .section.bg-medium {
+    background-color: #ecf9f1;
+  }
+  
+  .section.bg-dark {
+    background-color: #f0f0f0;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2ecc71;
+  }
+  
+  .clear-button {
+    background-color: #e74c3c;
+  }
+  
+  .clear-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 5px;
+  }
+  
