@@ -9,12 +9,13 @@ const Login = ({ setIsAuthenticated }) => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Mock authentication logic
-    if (email === "user@ecoquest.com" && password === "ojasv") {
-      setIsAuthenticated(true);
-      navigate("/home");
-    } else {
-      alert("Invalid credentials. Please try again.");
-    }
+    // if (email === "user@ecoquest.com" && password === "ojasv") {
+    //   setIsAuthenticated(true);
+    //   navigate("/home");
+    // } else {
+    //   alert("Invalid credentials. Please try again.");
+    // }
+    setIsAuthenticated(true);
   };
 
   return (
