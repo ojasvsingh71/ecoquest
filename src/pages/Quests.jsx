@@ -10,18 +10,19 @@ function Quests() {
   });
 
   const allQuests = [
-    { id: 1, category: "Energy Efficiency", title: "Switch to LED Bulbs", points: 10 },
-    { id: 2, category: "Waste Reduction", title: "Start Composting", points: 15 },
-    { id: 3, category: "Green Transportation", title: "Carpool Once a Week", points: 20 },
-    { id: 4, category: "Eco-Friendly Living", title: "Plant a Tree", points: 30 },
-    { id: 5, category: "Energy Efficiency", title: "Unplug Idle Devices", points: 10 },
-    { id: 6, category: "Waste Reduction", title: "Zero-Waste Grocery Shopping", points: 25 },
-    { id: 7, category: "Green Transportation", title: "Bike to Work", points: 20 },
-    { id: 8, category: "Energy Efficiency", title: "Install Solar Panels", points: 50 },
-    { id: 9, category: "Waste Reduction", title: "Recycle Electronics", points: 15 },
-    { id: 10, category: "Green Transportation", title: "Walk for Short Distances", points: 10 },
-    { id: 11, category: "Eco-Friendly Living", title: "Switch to Reusable Bottles", points: 10 },
-    { id: 12, category: "Eco-Friendly Living", title: "Grow Your Own Vegetables", points: 25 },
+    { id: 1, category: "Sustainability", title: "Use EcoWrite", points: 50 },
+    { id: 2, category: "Energy Efficiency", title: "Switch to LED Bulbs", points: 10 },
+    { id: 3, category: "Waste Reduction", title: "Start Composting", points: 15 },
+    { id: 4, category: "Green Transportation", title: "Carpool Once a Week", points: 20 },
+    { id: 5, category: "Eco-Friendly Living", title: "Plant a Tree", points: 30 },
+    { id: 6, category: "Energy Efficiency", title: "Unplug Idle Devices", points: 10 },
+    { id: 7, category: "Waste Reduction", title: "Zero-Waste Grocery Shopping", points: 25 },
+    { id: 8, category: "Green Transportation", title: "Bike to Work", points: 20 },
+    { id: 9, category: "Energy Efficiency", title: "Install Solar Panels", points: 50 },
+    { id: 10, category: "Waste Reduction", title: "Recycle Electronics", points: 15 },
+    { id: 11, category: "Green Transportation", title: "Walk for Short Distances", points: 10 },
+    { id: 12, category: "Eco-Friendly Living", title: "Switch to Reusable Bottles", points: 10 },
+    { id: 13, category: "Eco-Friendly Living", title: "Grow Your Own Vegetables", points: 25 },
   ];
 
   useEffect(() => {
@@ -99,6 +100,11 @@ function Quests() {
       <section style={{ marginTop: "40px" }}>
         <h2>Featured Quests</h2>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
+          <QuestCard
+            title="Use EcoWrite"
+            description="Enable a green future by using biodegradable pens."
+            points={50}
+          />
           <QuestCard
             title="Switch to LED Bulbs"
             description="Save energy by replacing incandescent bulbs with LEDs."
